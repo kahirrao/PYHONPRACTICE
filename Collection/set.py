@@ -1,0 +1,18 @@
+my_set = {1, 2, 3, 4, 5, 56, 32, 10.5}
+print(my_set)
+print(type(my_set))
+print(len(my_set))
+my_set.add(6)
+print(my_set)
+# my_set.remove('abc')
+# print(my_set)
+my_set.update([7, 8, 9])
+print(my_set)
+my_list=list(my_set)
+print(my_list)
+my_list.sort()
+print(my_list)
+my_list.reverse()
+print(my_list)
+my_list[-1]
+print(f"element {my_list[-1]}") 
